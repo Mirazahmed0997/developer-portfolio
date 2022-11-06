@@ -1,6 +1,8 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0%;
+    text-align: justify;
+
 }
 
 h1 {
@@ -24,13 +26,13 @@ span {
 .width img {
     border: 5px solid white;
     border-radius: 100px;
-    width: 50%;
+    width: 65%;
     padding-left: 30%;
     padding-top: 10%;
 
 }
 
-.gitbutton {
+.button {
     text-decoration: none;
     color: black;
     background-image: linear-gradient(orange, red);
@@ -42,4 +44,18 @@ span {
 .welcome {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.Dream {
+
+    display: flex;
+    padding-top: 10px;
+    margin: 150px;
+
+}
+
+.Dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
